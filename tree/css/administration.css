@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+ul{
+
+    width:200px;
+    height: auto;
+    display: block;
+}
+.ul{
+    display: none;
+}
+.ul li{
+    background: url("../img/mkdir.png") no-repeat 0 4px;
+    text-align: left;
+    display: inline-block;
+    width:100px;
+    padding-left: 30px;
+}
+.contain{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+.left{
+    width: 250px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right:10px solid gray;
+    float: left;
+}
+
+.right{
+    width: 400px;
+    height: 1000px;
+    margin: 25px 0 0 40px;
+    float: left;
+    display: none;
+}
+
+
+.add{
+    width: 100px;
+    height: 30px;
+    background:#48a7dd;
+    border-radius:10px ;
+    text-align: center;
+    line-height: 30px;
+    margin: 30px auto 20px 44px;
+
+}
+.total-content{
+    margin-left: 24px;
+    margin-bottom: 15px;
+    cursor:pointer;
+    width: 100%;
+    height: auto;
+}
+
+.total-content2{
+    margin-left: 24px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.total-content3{
+    margin-left: 24px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    display: none;
+
+
+}
+
+.top{
+    display: inline-block;
+    margin: 6px 6px 0 0;
+    width: 10px;
+    height: 5px;
+
+}
+
+.bottom{
+    margin: 5px 6px 0 0;
+    width: 5px;
+    height: 9px;
+
+}
+.create{
+    margin: 2px 10px 0 0;
+}
+.mkdir{
+    margin-right: 10px;
+}
+.add-mkdir{
+    margin-left: 10px;
+    width: 20px;
+    height: 10px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 5px;
+}
+
+.add-mkdir2{
+    margin-left: 10px;
+    width: 20px;
+    height: 10px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 5px;
+}
+
+.reduce-mkdir{
+    margin-left: 10px;
+    width: 20px;
+    height: 10px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 5px;
+}
+
+.reduce-mkdir2{
+    margin-left: 10px;
+    width: 20px;
+    height: 10px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 5px;
+}
+
+.text{
+    width: 260px;
+    height: 30px;
+    border: 1px solid grey;
+    padding-left: 10px;
+
+}
+.text2{
+    width: 260px;
+    height: 30px;
+    border: 1px solid grey;
+    padding-left: 10px;
+
+}
+.submit{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.submit span{
+    width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.concat{
+    width: 100px;
+    height: 30px;
+    border-radius:5px;
+    text-align: center;
+    line-height: 30px;
+    background: #48a7dd;
+    -webkit-appearence:none;
+    border: none;
+    outline: none;
+    appearance:button;
+    -moz-appearance:button; /* Firefox */
+    -webkit-appearance:button; /* Safari 和 Chrome */
+}
+.reset{
+    width: 100px;
+    height: 30px;
+    border-radius:5px;
+    text-align: center;
+    line-height: 30px;
+    background: #48a7dd;
+    margin-left: 10px;
+    -webkit-appearence:none;
+    border: none;
+    outline: none;
+    appearance:button;
+    -moz-appearance:button; /* Firefox */
+    -webkit-appearance:button; /* Safari 和 Chrome */
+}

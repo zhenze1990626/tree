@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.contain{
+	display: flex;
+	
+}
+.left{
+	width: 300px;
+	height: auto;
+}
+.right{
+	flex: 1;
+	height: auto;
+	display: none;
+}
+
+.text{
+    width: 260px;
+    height: 30px;
+    border: 1px solid grey;
+    padding-left: 10px;
+
+}
+.text2{
+    width: 260px;
+    height: 30px;
+    border: 1px solid grey;
+    padding-left: 10px;
+
+}
+.submit{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.submit span{
+    width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.concat{
+    width: 100px;
+    height: 30px;
+    border-radius:5px;
+    text-align: center;
+    line-height: 30px;
+    background: #48a7dd;
+    -webkit-appearence:none;
+    border: none;
+    outline: none;
+    appearance:button;
+    -moz-appearance:button; /* Firefox */
+    -webkit-appearance:button; /* Safari 和 Chrome */
+}
+.reset{
+    width: 100px;
+    height: 30px;
+    border-radius:5px;
+    text-align: center;
+    line-height: 30px;
+    background: #48a7dd;
+    margin-left: 10px;
+    -webkit-appearence:none;
+    border: none;
+    outline: none;
+    appearance:button;
+    -moz-appearance:button; /* Firefox */
+    -webkit-appearance:button; /* Safari 和 Chrome */
+}
